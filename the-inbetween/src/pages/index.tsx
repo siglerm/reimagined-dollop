@@ -12,7 +12,7 @@ export default function Home() {
         A land a bit different from ours, where the familiar is few and far
         between.
       </p>
-      <Link href={""}>
+      <Link href={"/chapter1/scene1"}>
         <button className={styles.startButton}>Start your Journey</button>
       </Link>
     </div>
