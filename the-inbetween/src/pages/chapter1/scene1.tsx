@@ -1,8 +1,14 @@
 import { EB_Garamond } from "next/font/google";
+import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Scene.module.css";
 
 export default function Scene1() {
+  let keyring = {
+    left: false,
+    right: false,
+  };
+  const keyringString = JSON.stringify(keyring);
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
@@ -30,8 +36,19 @@ export default function Scene1() {
         <p>You sit up and look around.</p>
       </div>
       <div className={styles.buttonContainer}>
-        <button className={styles.choiceButton}>Look Left</button>
-        <button className={styles.choiceButton}>Look Right</button>
+        <Link
+          href={{
+            pathname: "/chapter1/scene2",
+            query: {
+              keyringString,
+            },
+          }}
+        >
+          <button className={styles.choiceButton}>Look Left</button>
+        </Link>
+        <Link href="/chapter1/scene3">
+          <button className={styles.choiceButton}>Look Right</button>
+        </Link>
       </div>
     </div>
   );
