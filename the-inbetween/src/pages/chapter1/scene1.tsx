@@ -36,17 +36,10 @@ export default function Scene1() {
         <p>You sit up and look around.</p>
       </div>
       <div className={styles.buttonContainer}>
-        <Link
-          href={{
-            pathname: "/chapter1/scene2",
-            query: {
-              keyringString,
-            },
-          }}
-        >
+        <Link href="scene2">
           <button className={styles.choiceButton}>Look Left</button>
         </Link>
-        <Link href="/chapter1/scene3">
+        <Link href="scene3">
           <button className={styles.choiceButton}>Look Right</button>
         </Link>
       </div>

@@ -15,25 +15,25 @@ export default function Scene1() {
         /> */}
       </div>
       <div className={styles.textContainer}>
-        <p>You turn around to where you were first facing.</p>
-        <p>You stare ahead at the long journey that stretches before you.</p>
-        <p>
-          In an instant, a formidable creature materializes in front of you.
+        <p className={styles.bestThought}>
+          Child, do what you have always done.
         </p>
-        <p>It has been watching you...</p>
-        <p>It has seen everything, even though you could not see it...</p>
-        <p className={styles.textThought}>
-          Maybe it didn&apos;t want to be seen...
+        <p className={styles.bestThought}>
+          Follow the path laid bare before you and remain vigilant for the signs
+          that guide your way.
+        </p>
+        <p className={styles.bestThought}>
+          You may not have realized it, but you have been walking this path all
+          along.
+        </p>
+        <p className={styles.bestThought}>
+          The echoes of your past have silently shaped your present, leading you
+          to this very moment.
         </p>
       </div>
       <div className={styles.buttonContainer}>
         <Link href="scene2">
-          <button className={styles.choiceButton}>Try to pet it</button>
-        </Link>
-        <Link href="scene3">
-          <button className={styles.choiceButton}>
-            Open your mouth to speak
-          </button>
+          <button className={styles.choiceButton}>Look down</button>
         </Link>
       </div>
     </div>

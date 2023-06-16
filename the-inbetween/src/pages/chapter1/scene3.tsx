@@ -7,12 +7,12 @@ export default function Scene3() {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        {/* <Image
-          src="/Chapter1:scene2.png"
+        <Image
+          src="/Chapter1/Chapter1:scene3.png"
           width={500}
           height={450}
-          alt="Picture of a forest with red trees, birds circling in the air, dense canopies"
-        /> */}
+          alt="Picture of a desert with birds flying overhead. There is a single bird standing in the way."
+        />
       </div>
       <div className={styles.textContainer}>
         <p>You get hit with a dry, arid breeze.</p>
@@ -27,10 +27,10 @@ export default function Scene3() {
         <p>A shiver runs down your spine...</p>
       </div>
       <div className={styles.buttonContainer}>
-        <Link href="/chapter1/scene2">
+        <Link href="scene2">
           <button className={styles.choiceButton}>Look the other way</button>
         </Link>
-        <Link href={"/chapter2/scene1"}>
+        <Link href="/chapter2/scene1">
           <button className={styles.choiceButton}>Turn around</button>
         </Link>
       </div>

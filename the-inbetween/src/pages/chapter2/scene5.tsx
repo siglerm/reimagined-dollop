@@ -3,7 +3,7 @@ import styles from "../../styles/Scene.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Scene1() {
+export default function Scene5() {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
@@ -15,24 +15,20 @@ export default function Scene1() {
         /> */}
       </div>
       <div className={styles.textContainer}>
-        <p>You turn around to where you were first facing.</p>
-        <p>You stare ahead at the long journey that stretches before you.</p>
-        <p>
-          In an instant, a formidable creature materializes in front of you.
+        <p className={styles.beastText}>
+          You do not need to know where you are going...
         </p>
-        <p>It has been watching you...</p>
-        <p>It has seen everything, even though you could not see it...</p>
-        <p className={styles.textThought}>
-          Maybe it didn&apos;t want to be seen...
+        <p className={styles.beastText}>
+          Just know that you are already on your way...
         </p>
       </div>
       <div className={styles.buttonContainer}>
-        <Link href="scene2">
-          <button className={styles.choiceButton}>Try to pet it</button>
+        <Link href="scene6">
+          <button className={styles.choiceButton}>What happened?</button>
         </Link>
-        <Link href="scene3">
+        <Link href="scene 7">
           <button className={styles.choiceButton}>
-            Open your mouth to speak
+            Can I at least know where I am?
           </button>
         </Link>
       </div>

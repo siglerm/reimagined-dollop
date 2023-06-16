@@ -23,6 +23,11 @@
 .textThought {
   font-style: italic;
 }
+.beastText {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 18px;
+  line-height: 2.5;
+}
 
 .buttonContainer {
   grid-area: choice;
