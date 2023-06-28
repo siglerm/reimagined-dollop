@@ -3,7 +3,7 @@ import styles from "../../styles/Scene.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Scene5() {
+export default function Scene11() {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
@@ -15,15 +15,18 @@ export default function Scene5() {
         /> */}
       </div>
       <div className={styles.textContainer}>
-        <p className={styles.textThought}>
-          I don&apos;t have time to joke around!
+        <p className={styles.villageText}>
+          What we are and where we come from, do not matter.
         </p>
-        <p className={styles.textThought}>I need to get out of here!</p>
-        <p className={styles.textThought}>It would be fun though...</p>
+        <p className={styles.villageText}>We are here now...</p>
+        <p className={styles.villageText}>We are here together...</p>
       </div>
       <div className={styles.buttonContainer}>
-        <Link href="scene6">
-          <button className={styles.choiceButton}>Head down the path</button>
+        <Link href="scene12">
+          <button className={styles.choiceButton}>Who are you?</button>
+        </Link>
+        <Link href="scene13">
+          <button className={styles.choiceButton}>Can you help me?</button>
         </Link>
       </div>
     </div>

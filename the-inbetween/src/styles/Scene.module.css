@@ -29,6 +29,10 @@
   line-height: 2.5;
 }
 
+.villageText {
+  font-family: "Amatic SC", cursive;
+}
+
 .buttonContainer {
   grid-area: choice;
   display: flex;

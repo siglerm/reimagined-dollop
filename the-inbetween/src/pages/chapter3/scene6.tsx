@@ -3,7 +3,7 @@ import styles from "../../styles/Scene.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Scene2() {
+export default function Scene6() {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
